@@ -1,0 +1,18 @@
+# terminal specific
+alias c='clear'
+
+# application shortcuts
+alias g='gvim &> /dev/null'
+alias b='brackets 2>/dev/null'
+alias s='subl'
+
+# python virtual environment shortcuts
+alias vp2='virtualenv -p python2'
+alias vp3='virtualenv -p python3'
+alias mv2='mkvirtualenv -p python2'
+alias mv3='mkvirtualenv -p python3'
+alias a='. .env/bin/activate'
+
+# dev shortcuts
+alias s='python3 -m http.server'
+
